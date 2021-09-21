@@ -1,0 +1,31 @@
+
+.nav-bar{
+    display: flex;
+    position: absolute;
+    background-color: var(--blue-13);
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-template-columns-2 {
+	grid-template-columns: 5fr 1.5fr 1fr 1fr;
+}
+
+
+.font{
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a {
+    margin-left: 10px;
+    color: var(--white-9);
+}
