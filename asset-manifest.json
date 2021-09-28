@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/ProjetoAplicado/static/css/main.752889b5.chunk.css",
-    "main.js": "/ProjetoAplicado/static/js/main.b89d46c1.chunk.js",
-    "main.js.map": "/ProjetoAplicado/static/js/main.b89d46c1.chunk.js.map",
-    "runtime-main.js": "/ProjetoAplicado/static/js/runtime-main.0a6f0a73.js",
-    "runtime-main.js.map": "/ProjetoAplicado/static/js/runtime-main.0a6f0a73.js.map",
-    "static/js/2.a48fb10a.chunk.js": "/ProjetoAplicado/static/js/2.a48fb10a.chunk.js",
-    "static/js/2.a48fb10a.chunk.js.map": "/ProjetoAplicado/static/js/2.a48fb10a.chunk.js.map",
-    "static/js/3.7e79e2fc.chunk.js": "/ProjetoAplicado/static/js/3.7e79e2fc.chunk.js",
-    "static/js/3.7e79e2fc.chunk.js.map": "/ProjetoAplicado/static/js/3.7e79e2fc.chunk.js.map",
+    "main.css": "/ProjetoAplicado/static/css/main.fbc07eed.chunk.css",
+    "main.js": "/ProjetoAplicado/static/js/main.ba1319ad.chunk.js",
+    "main.js.map": "/ProjetoAplicado/static/js/main.ba1319ad.chunk.js.map",
+    "runtime-main.js": "/ProjetoAplicado/static/js/runtime-main.912239da.js",
+    "runtime-main.js.map": "/ProjetoAplicado/static/js/runtime-main.912239da.js.map",
+    "static/js/2.bed11aa5.chunk.js": "/ProjetoAplicado/static/js/2.bed11aa5.chunk.js",
+    "static/js/2.bed11aa5.chunk.js.map": "/ProjetoAplicado/static/js/2.bed11aa5.chunk.js.map",
+    "static/js/3.fb91b42e.chunk.js": "/ProjetoAplicado/static/js/3.fb91b42e.chunk.js",
+    "static/js/3.fb91b42e.chunk.js.map": "/ProjetoAplicado/static/js/3.fb91b42e.chunk.js.map",
     "index.html": "/ProjetoAplicado/index.html",
-    "static/css/main.752889b5.chunk.css.map": "/ProjetoAplicado/static/css/main.752889b5.chunk.css.map",
-    "static/js/2.a48fb10a.chunk.js.LICENSE.txt": "/ProjetoAplicado/static/js/2.a48fb10a.chunk.js.LICENSE.txt"
+    "static/css/main.fbc07eed.chunk.css.map": "/ProjetoAplicado/static/css/main.fbc07eed.chunk.css.map",
+    "static/js/2.bed11aa5.chunk.js.LICENSE.txt": "/ProjetoAplicado/static/js/2.bed11aa5.chunk.js.LICENSE.txt",
+    "static/media/facebook-icon.bcdd2d5b.svg": "/ProjetoAplicado/static/media/facebook-icon.bcdd2d5b.svg",
+    "static/media/instagram-icon.26a2990f.svg": "/ProjetoAplicado/static/media/instagram-icon.26a2990f.svg",
+    "static/media/linkedin-icon.52e16596.svg": "/ProjetoAplicado/static/media/linkedin-icon.52e16596.svg",
+    "static/media/twitter-icon.f5120316.svg": "/ProjetoAplicado/static/media/twitter-icon.f5120316.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a6f0a73.js",
-    "static/js/2.a48fb10a.chunk.js",
-    "static/css/main.752889b5.chunk.css",
-    "static/js/main.b89d46c1.chunk.js"
+    "static/js/runtime-main.912239da.js",
+    "static/js/2.bed11aa5.chunk.js",
+    "static/css/main.fbc07eed.chunk.css",
+    "static/js/main.ba1319ad.chunk.js"
   ]
 }
