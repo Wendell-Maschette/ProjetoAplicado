@@ -12,7 +12,7 @@ function Navigation() {
     <>
       <div className="nav-bar">
         <div className="grid grid-template-columns-2 font" id="links-pages">
-          <Link to="/">Home</Link>
+          <Link to={process.env.PUBLIC_URL + '/'}>Home</Link>
           <Link to="quem-somos">Quem somos</Link>
           <Link to="duvidas">Duvidas</Link>
           <Link to="contato">Contato</Link>

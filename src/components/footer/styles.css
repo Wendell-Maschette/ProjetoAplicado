@@ -1,0 +1,80 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--footer-1);
+    width: 100%;
+    padding: 0;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-footer {
+    position: relative;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.font {
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a {
+    margin-left: 10px;
+    color: var(--white-9);
+}
+
+.container-info {
+    width: 30%;
+}
+
+.container-atendimento {
+    width: 30%;
+}
+
+.container-redes {
+    width: 30%;
+}
+
+.hr {
+    background-color: var(--blue-5);
+    position: relative;
+    height: 3px;
+    margin: 35px 10px;
+    border: none;
+    width: 50%;
+}
+
+div h1 {
+    color: var(--white-4);
+    text-align: center;
+}
+
+li {
+    position: relative;
+    padding-left: 13px;
+    line-height: 25px;
+    color: var(--white-4);
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 10px;
+    width: 5px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: var(--blue-5);
+}
+
+a {
+    color: var(--white-4);
+}
