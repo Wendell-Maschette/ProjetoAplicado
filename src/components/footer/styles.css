@@ -1,13 +1,13 @@
 .footer {
-    position: absolute;
     bottom: 0;
-    background-color: var(--footer-1);
+    background-color: black;
     width: 100%;
     padding: 0;
     height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 2px solid var(--green-10);
 }
 
 .content-footer {
@@ -16,12 +16,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.font {
-    font-family: 'Lobster Two', cursive;
-    font-weight: bold;
-    font-size: 25px;
 }
 
 a {
@@ -42,7 +36,7 @@ a {
 }
 
 .hr {
-    background-color: var(--blue-5);
+    background-color: var(--green-10);
     position: relative;
     height: 3px;
     margin: 35px 10px;
@@ -55,14 +49,14 @@ div h1 {
     text-align: center;
 }
 
-li {
+.footer-li {
     position: relative;
     padding-left: 13px;
     line-height: 25px;
     color: var(--white-4);
 }
 
-li::before {
+.footer-li::before {
     content: "";
     position: absolute;
     left: 0;
@@ -72,7 +66,7 @@ li::before {
     width: 5px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: var(--blue-5);
+    background-color: var(--green-10);
 }
 
 a {

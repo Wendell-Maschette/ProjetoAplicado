@@ -11,11 +11,13 @@ function Navigation() {
   return (
     <>
       <div className="nav-bar">
-        <div className="grid grid-template-columns-2 font" id="links-pages">
-          <Link to={process.env.PUBLIC_URL + '/'}>Home</Link>
-          <Link to="quem-somos">Quem somos</Link>
-          <Link to="duvidas">Duvidas</Link>
-          <Link to="contato">Contato</Link>
+        <div className="nav-bar-home font font-24" id="links-pages">
+          <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/'}>Home</Link>
+          <div className="nav-bar-links-pages">
+            <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/quem-somos'}>Quem somos</Link>
+            <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/duvidas'}>Duvidas</Link>
+            <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/contato'}>Contato</Link>
+          </div>
         </div>
       </div>
     </>

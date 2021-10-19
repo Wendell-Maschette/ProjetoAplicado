@@ -1,13 +1,11 @@
-import { ReactComponent as FacebookIcon } from "../assets/vectors/facebook-icon.svg";
-import { ReactComponent as InstagramIcon } from "../assets/vectors/instagram-icon.svg";
-import { ReactComponent as LinkedinIcon } from "../assets/vectors/linkedin-icon.svg";
-import { ReactComponent as TwitterIcon } from "../assets/vectors/twitter-icon.svg";
-
-
+import FutureHighway  from '../assets/images/future-highway.jpeg';
+import HighwayLightDay  from '../assets/images/highway-light-day.png';
+import HighwayLightNight  from '../assets/images/highway-light-night.png';
+import WorkingHighway  from '../assets/images/working-highway.png';
 
 export {
-    FacebookIcon,
-    InstagramIcon,
-    LinkedinIcon,
-    TwitterIcon,
-};
+    FutureHighway,
+    HighwayLightDay,
+    HighwayLightNight,
+    WorkingHighway,
+}

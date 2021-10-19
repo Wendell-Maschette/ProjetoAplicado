@@ -6,7 +6,7 @@ import {
   InstagramIcon,
   LinkedinIcon,
   TwitterIcon
-} from "../../helpers/image-bundle";
+} from "../../helpers/svg-bundle";
 
 
 
@@ -25,10 +25,10 @@ function Footer() {
               <hr className="hr" />
             </div>
             <ul className="ml-20">
-              <li><Link className="font-18 text-bold">Home</Link></li>
-              <li><Link className="font-18 text-bold">Quem somos</Link></li>
-              <li><Link className="font-18 text-bold">Dúvidas</Link></li>
-              <li><Link className="font-18 text-bold">Contato</Link></li>
+              <li><Link to={process.env.PUBLIC_URL + '/'} className="footer-li font-18 text-bold">Home</Link></li>
+              <li><Link to={process.env.PUBLIC_URL + '/quem-somos'} className="footer-li font-18 text-bold">Quem somos</Link></li>
+              <li><Link to={process.env.PUBLIC_URL + '/duvidas'} className="footer-li font-18 text-bold">Dúvidas</Link></li>
+              <li><Link to={process.env.PUBLIC_URL + '/contato'} className="footer-li font-18 text-bold">Contato</Link></li>
             </ul>
           </div>
           <div className="container-atendimento">
@@ -36,8 +36,8 @@ function Footer() {
               <h1 className="font-24">Atendimento </h1>
               <hr className="hr" />
             </div>
-            <ul className="ml-20">
-              <li className="font-18 text-bold">0800 500 7850</li>
+            <ul className="ml-20 text-primary-light">
+              <li className="font-18 text-bold ">0800 500 7850</li>
               <li className="font-18 text-bold">smart_highways@smarthighways.com</li>
             </ul>
           </div>
@@ -47,15 +47,15 @@ function Footer() {
               <hr className="hr" />
             </div>
             <div className=" space-around row">
-              <FacebookIcon>Home</FacebookIcon>
-              <InstagramIcon className="font-18 text-bold">Quem somos</InstagramIcon>
-              <LinkedinIcon className="font-18 text-bold">Dúvidas</LinkedinIcon>
-              <TwitterIcon className="font-18 text-bold">Contato</TwitterIcon>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  )
+              <FacebookIcon/>
+              <InstagramIcon className="font-18 text-bold"/>
+              <LinkedinIcon className="font-18 text-bold"/>
+              <TwitterIcon className="font-18 text-bold"/>
+              </div>
+              </div >
+              </div >
+            </div >
+          </>
+          )
 }
-export default Footer;
+          export default Footer;

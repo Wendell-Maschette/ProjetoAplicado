@@ -1,6 +1,33 @@
 /* Estilos globais - tema */
 
 :root {
+    --primary-color: #000000ff;
+  --primary-light-color: #ffe8ed;
+  --primary-dark-color: #000000ff;
+  --danger-color: #bb2124;
+  --dark-color: #333333;
+  --warn-color: #f0ad4e;
+  --success-color: #2ba620;
+  --card-color: #e7e9ee;
+  --disabled-color: #ebebeb;
+  --disabled-dark-color: #d1d1d1;
+  --waiting-color: #e7e9ee;
+  --muted-color: #969696;
+  --text-color: #575757;
+  --primary-text-color: #ffffff;
+  --success-text-color: #2ba620;
+  --warn-text-color: #f0ad4e;
+  --danger-text-color: #bb2124;
+  --black-color: #191919;
+  --secondary-text-color: #5a646e;
+  --border-color: #d1d1d1;
+  --alert-color: #f9f3bf;
+  --alert-text-color: #db812c;
+  --waiting-text-color: #384a74;
+  --destak-color: #f5fcff;
+  --error-color-destak: #2a375c;
+
+
     --black-1: #000000ff;
     --black-2: #111216ff;
     --black-3: #22242Bff;
@@ -21,22 +48,21 @@
     --white-13: #B7BED8ff;
     --white-14: #B1B8D4ff;
     --white-15: #ABB3D1ff;
-    --blue-1: #6DBDF2ff;
-    --blue-2: #65B3F3ff;
-    --blue-3: #5DA9F4ff;
-    --blue-4: #569FF5ff;
-    --blue-5: #4E96F6ff;
-    --blue-6: #468CF7ff;
-    --blue-7: #3E82F8ff;
-    --blue-8: #3778F9ff;
-    --blue-9: #2F6EF9ff;
-    --blue-10: #2764FAff;
-    --blue-11: #1F5AFBff;
-    --blue-12: #1751FCff;
-    --blue-13: #1047FDff;
-    --blue-14: #083DFEff;
-    --blue-15: #0033FFff;
     --footer-1: #3f4a6f;
+    --green-1: #2da632;
+    --green-2: #26ae43;
+    --green-3: #1cb554;
+    --green-4: #0ebd64;
+    --green-5: #00c573;
+    --green-6: #00cc83;
+    --green-7: #00d492;
+    --green-8: #00dba1;
+    --green-9: #00e2b0;
+    --green-10: #00eabf;
+    --green-11: #00f1ce;
+    --green-12: #00f8dc;
+    --green-13: #00ffea;
+    
 }
 
 ::placeholder {
@@ -140,17 +166,16 @@ input {
     color: var(--black-color);
 }
 
-html {
-    height: 100vh;
+* {
+  box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-    color: var(--text-color);
-    background-color: #fff;
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 main,
@@ -168,16 +193,19 @@ p {
     line-height: 18px;
     margin: 0;
     padding: 0;
+    font-family: 'Sora', sans-serif;
 }
 
 .h1 {
     font-size: 16px;
     line-height: 24px;
+    font-family: 'Sora', sans-serif;
 }
 
 .h2 {
     font-size: 16px;
     line-height: 22px;
+    font-family: 'Sora', sans-serif;
 }
 
 .tab {
@@ -415,6 +443,10 @@ header img.close {
     color: var(--text-color);
 }
 
+.font {
+    font-family: 'Oxygen', sans-serif;
+}
+
 .font-10 {
     font-size: 10px;
     line-height: 16px;
@@ -608,7 +640,6 @@ ul {
 .input {
     outline: 0;
     border: none;
-    font-family: "Bradesco Sans";
     padding: 10px;
     font-weight: 300;
 }

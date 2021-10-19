@@ -7,7 +7,6 @@ import './styles.css';
 function Faq() {
   return (
     <main >
-      <Navigation/>
     </main>
     );
 }

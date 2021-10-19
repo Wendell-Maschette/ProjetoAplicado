@@ -8,7 +8,6 @@ import Navigation from '../../components/navigation';
 function Contact() {
   return (
     <main >
-      <Navigation/>
     </main>
     );
 }
