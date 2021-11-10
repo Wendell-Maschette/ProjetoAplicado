@@ -18,7 +18,9 @@ function Footer() {
   return (
     <>
       <div className="footer">
-        <div className="content-footer row">
+        <div className="content-footer">
+          
+          
           <div className="container-info">
             <div className="row">
               <h1 className="font-24">Institucional </h1>
@@ -31,6 +33,7 @@ function Footer() {
               <li><Link to={process.env.PUBLIC_URL + '/contato'} className="footer-li font-18 text-bold">Contato</Link></li>
             </ul>
           </div>
+
           <div className="container-atendimento">
             <div className="row">
               <h1 className="font-24">Atendimento </h1>
@@ -41,21 +44,24 @@ function Footer() {
               <li className="font-18 text-bold">smart_highways@smarthighways.com</li>
             </ul>
           </div>
+
           <div className="container-redes">
             <div className="row">
               <h1 className="font-24">Siga nas redes </h1>
               <hr className="hr" />
             </div>
             <div className=" space-around row">
-              <FacebookIcon/>
-              <InstagramIcon className="font-18 text-bold"/>
-              <LinkedinIcon className="font-18 text-bold"/>
-              <TwitterIcon className="font-18 text-bold"/>
-              </div>
-              </div >
-              </div >
-            </div >
-          </>
-          )
+              <FacebookIcon />
+              <InstagramIcon className="font-18 text-bold" />
+              <LinkedinIcon className="font-18 text-bold" />
+              <TwitterIcon className="font-18 text-bold" />
+            </div>
+          </div >
+
+
+        </div >
+      </div >
+    </>
+  )
 }
-          export default Footer;
+export default Footer;

@@ -1,15 +1,16 @@
 import React from 'react';
+import Hero from '../../modules/about/index';
 import './styles.css';
-import Navigation from '../../components/navigation';
 
-
-// import { Container } from './styles';
 
 function About() {
   return (
-    <main >
-    </main>
-    );
+    <>
+      <div className="content-home">
+        <Hero />
+      </div>
+    </>
+  );
 }
 
 export default About;

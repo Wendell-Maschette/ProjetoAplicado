@@ -26,20 +26,16 @@
     align-items: center;
     display: flex;
     padding: 10px;
-    border-radius: 60px;
+    
 }
 
 
 .nav-bar-link:hover{
-    border: solid 2px var(--green-10);
-    border-radius: 60px;
+    border-bottom: solid 2px var(--green-10);
+
 }
 
 a {
     margin-left: 10px;
-    color: var(--white-9);
-}
-
-a:hover{
     color: var(--green-10);
 }
