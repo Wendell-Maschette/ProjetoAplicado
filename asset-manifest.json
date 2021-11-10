@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/ProjetoAplicado/static/css/main.52fee411.chunk.css",
-    "main.js": "/ProjetoAplicado/static/js/main.04fb295e.chunk.js",
-    "main.js.map": "/ProjetoAplicado/static/js/main.04fb295e.chunk.js.map",
-    "runtime-main.js": "/ProjetoAplicado/static/js/runtime-main.361a55dc.js",
-    "runtime-main.js.map": "/ProjetoAplicado/static/js/runtime-main.361a55dc.js.map",
-    "static/js/2.4fef92c0.chunk.js": "/ProjetoAplicado/static/js/2.4fef92c0.chunk.js",
-    "static/js/2.4fef92c0.chunk.js.map": "/ProjetoAplicado/static/js/2.4fef92c0.chunk.js.map",
-    "static/js/3.aeeb08b6.chunk.js": "/ProjetoAplicado/static/js/3.aeeb08b6.chunk.js",
-    "static/js/3.aeeb08b6.chunk.js.map": "/ProjetoAplicado/static/js/3.aeeb08b6.chunk.js.map",
+    "main.css": "/ProjetoAplicado/static/css/main.a722e547.chunk.css",
+    "main.js": "/ProjetoAplicado/static/js/main.d6947394.chunk.js",
+    "main.js.map": "/ProjetoAplicado/static/js/main.d6947394.chunk.js.map",
+    "runtime-main.js": "/ProjetoAplicado/static/js/runtime-main.159ed5f8.js",
+    "runtime-main.js.map": "/ProjetoAplicado/static/js/runtime-main.159ed5f8.js.map",
+    "static/js/2.052f8a44.chunk.js": "/ProjetoAplicado/static/js/2.052f8a44.chunk.js",
+    "static/js/2.052f8a44.chunk.js.map": "/ProjetoAplicado/static/js/2.052f8a44.chunk.js.map",
+    "static/js/3.d0f5b9f7.chunk.js": "/ProjetoAplicado/static/js/3.d0f5b9f7.chunk.js",
+    "static/js/3.d0f5b9f7.chunk.js.map": "/ProjetoAplicado/static/js/3.d0f5b9f7.chunk.js.map",
     "index.html": "/ProjetoAplicado/index.html",
-    "static/css/main.52fee411.chunk.css.map": "/ProjetoAplicado/static/css/main.52fee411.chunk.css.map",
-    "static/js/2.4fef92c0.chunk.js.LICENSE.txt": "/ProjetoAplicado/static/js/2.4fef92c0.chunk.js.LICENSE.txt",
+    "static/css/main.a722e547.chunk.css.map": "/ProjetoAplicado/static/css/main.a722e547.chunk.css.map",
+    "static/js/2.052f8a44.chunk.js.LICENSE.txt": "/ProjetoAplicado/static/js/2.052f8a44.chunk.js.LICENSE.txt",
     "static/media/facebook-icon.bcdd2d5b.svg": "/ProjetoAplicado/static/media/facebook-icon.bcdd2d5b.svg",
     "static/media/future-highway.0557fc87.jpeg": "/ProjetoAplicado/static/media/future-highway.0557fc87.jpeg",
     "static/media/highway-light-day.86381cad.png": "/ProjetoAplicado/static/media/highway-light-day.86381cad.png",
     "static/media/highway-light-night.c4376455.png": "/ProjetoAplicado/static/media/highway-light-night.c4376455.png",
     "static/media/instagram-icon.26a2990f.svg": "/ProjetoAplicado/static/media/instagram-icon.26a2990f.svg",
+    "static/media/instalation-highway.4fd2ec2c.png": "/ProjetoAplicado/static/media/instalation-highway.4fd2ec2c.png",
     "static/media/linkedin-icon.52e16596.svg": "/ProjetoAplicado/static/media/linkedin-icon.52e16596.svg",
     "static/media/twitter-icon.f5120316.svg": "/ProjetoAplicado/static/media/twitter-icon.f5120316.svg",
     "static/media/working-highway.86d56633.png": "/ProjetoAplicado/static/media/working-highway.86d56633.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.361a55dc.js",
-    "static/js/2.4fef92c0.chunk.js",
-    "static/css/main.52fee411.chunk.css",
-    "static/js/main.04fb295e.chunk.js"
+    "static/js/runtime-main.159ed5f8.js",
+    "static/js/2.052f8a44.chunk.js",
+    "static/css/main.a722e547.chunk.css",
+    "static/js/main.d6947394.chunk.js"
   ]
 }
