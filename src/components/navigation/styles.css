@@ -5,7 +5,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    border-bottom: var(--green-10) 3px solid;
+    border-bottom: var(--green-10) 8px solid;
 }
 
 .nav-bar-home{

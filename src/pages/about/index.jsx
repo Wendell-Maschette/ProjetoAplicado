@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../../modules/about/index';
+import Hero from '../../modules/about/hero/index';
 import './styles.css';
 
 

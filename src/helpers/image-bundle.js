@@ -3,11 +3,17 @@ import HighwayLightDay  from '../assets/images/highway-light-day.png';
 import HighwayLightNight  from '../assets/images/highway-light-night.png';
 import WorkingHighway  from '../assets/images/working-highway.png';
 import InstalationHighway  from '../assets/images/instalation-highway.png';
+import Highway from '../assets/images/highway.png';
+import Motorista from '../assets/images/motorista.png';
+import Caminho from '../assets/images/caminho.png';
 
 export {
     FutureHighway,
     HighwayLightDay,
     HighwayLightNight,
     WorkingHighway,
-    InstalationHighway
+    InstalationHighway,
+    Highway,
+    Motorista,
+    Caminho
 }
