@@ -1,7 +1,5 @@
 import React from 'react';
 import './styles.css';
-import Navigation from '../../components/navigation';
-
 
 // import { Container } from './styles';
 
