@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../../modules/home/hero';
 import './styles.css';
 
-function Home() {
+export default function Home() {
   return (
     <>
       <div className="content-home">
@@ -12,4 +12,3 @@ function Home() {
   );
 }
 
-export default Home;

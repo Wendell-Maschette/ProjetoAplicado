@@ -6,6 +6,9 @@ import InstalationHighway  from '../assets/images/instalation-highway.png';
 import Highway from '../assets/images/highway.png';
 import Motorista from '../assets/images/motorista.png';
 import Caminho from '../assets/images/caminho.png';
+import Missao from '../assets/images/missao.png';
+import Visao from '../assets/images/visao.png';
+import Valores from '../assets/images/valores.png';
 
 export {
     FutureHighway,
@@ -15,5 +18,8 @@ export {
     InstalationHighway,
     Highway,
     Motorista,
-    Caminho
+    Caminho,
+    Missao,
+    Visao,
+    Valores
 }
