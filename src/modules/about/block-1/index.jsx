@@ -10,7 +10,7 @@ export default function Block1() {
             <div className="about-block1-content">
                 {!isMobile() ?
                     <div className="about-block1-content-image">
-                        <img src={Motorista} className="about-block1-content-motorista" />
+                        <img src={Motorista} alt="motorista" className="about-block1-content-motorista" />
                     </div> : ""
                 }
                 <div className="about-block1-content-text">
@@ -23,7 +23,7 @@ export default function Block1() {
                 </div>
                 {isMobile() ?
                     <div className="about-block1-content-image">
-                        <img src={Motorista} className="about-block1-content-motorista" />
+                        <img src={Motorista} alt="motorista" className="about-block1-content-motorista" />
                     </div> : ""
                 }
             </div>

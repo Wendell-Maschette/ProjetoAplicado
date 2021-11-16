@@ -1,6 +1,5 @@
 import React from "react";
-import pages from "./pages/index";
-import { BrowserRouter as Router, Switch, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Switch, Route, BrowserRouter } from "react-router-dom";
 
 import Navigation from "./components/navigation";
 import Footer from "./components/footer";
@@ -18,7 +17,6 @@ const Routes = () => {
         <Route exact path={process.env.PUBLIC_URL + '/quem-somos'} render={props => <><Navigation /><About {...props} /><Footer /></>} />
         <Route exact path={process.env.PUBLIC_URL + '/duvidas'} render={props => <><Navigation /><Faq {...props} /><Footer /></>}/>
         <Route exact path={process.env.PUBLIC_URL + '/contato'} render={props => <><Navigation /><Contact {...props} /><Footer /></>}/>
-        <Route component={() => <div>Error 404 !</div>} />
       </Switch>
     </BrowserRouter>
   );

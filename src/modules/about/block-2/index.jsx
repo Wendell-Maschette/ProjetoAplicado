@@ -22,7 +22,7 @@ export default function Block2() {
                     </p>
                 </div>
                 <div className="about-block2-content-image">
-                    <img src={Caminho} className="about-block2-content-caminho" />
+                    <img src={Caminho} alt="caminho" className="about-block2-content-caminho" />
                 </div>
             </div>
         </section>
