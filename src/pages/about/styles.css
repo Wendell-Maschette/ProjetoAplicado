@@ -1,4 +1,16 @@
 .wrapper-about{
     background-color: black;
     height: 100%;
+    padding-top: 120px;
+}
+.nav-mobile-link{
+    display: block;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .wrapper-about{
+        padding: 0;
+    }
 }
