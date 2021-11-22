@@ -1,6 +1,5 @@
 import React from 'react';
 import { Caminho } from '../../../helpers/image-bundle';
-import isMobile from '../../../helpers/is-mobile-bundle';
 import './styles.css';
 
 

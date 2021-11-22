@@ -30,7 +30,7 @@ function Footer() {
               <li><Link to={process.env.PUBLIC_URL + '/'} className="footer-li font font-18">Home</Link></li>
               <li><Link to={process.env.PUBLIC_URL + '/quem-somos'} className="footer-li font font-18">Quem somos</Link></li>
               <li><Link to={process.env.PUBLIC_URL + '/duvidas'} className="footer-li font font-18">Dúvidas</Link></li>
-              <li><Link to={process.env.PUBLIC_URL + '/contato'} className="footer-li font font-18">Contato</Link></li>
+              <li><Link to={process.env.PUBLIC_URL + '/contact'} className="footer-li font font-18">Contato</Link></li>
             </ul>
           </div>
 

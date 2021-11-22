@@ -9,7 +9,9 @@ import './styles.css';
 
 
 function Hero() {
+
     return <>
+
         <section className="home-hero-content">
             <ul className="home-hero-wrapper">
                 <li className="home-hero-content-element">
