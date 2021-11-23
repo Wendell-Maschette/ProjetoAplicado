@@ -1,0 +1,11 @@
+.wrapper-faq{
+    background-color: black;
+    height: 100%;
+    padding-top: 120px;
+}
+
+@media screen and (min-width: 768px){
+    .wrapper-faq{
+        padding: 0;
+    }
+}

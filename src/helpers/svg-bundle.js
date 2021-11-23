@@ -4,6 +4,7 @@ import { ReactComponent as InstagramIcon } from "../assets/vectors/instagram-ico
 import { ReactComponent as LinkedinIcon } from "../assets/vectors/linkedin-icon.svg";
 import { ReactComponent as TwitterIcon } from "../assets/vectors/twitter-icon.svg";
 import { ReactComponent as Hamburguer } from "../assets/vectors/hamburguer-icon.svg";
+import { ReactComponent as DropdownIcon } from "../assets/vectors/dropdown-icon.svg";
 
 export {
     FacebookIcon,
@@ -11,4 +12,5 @@ export {
     LinkedinIcon,
     TwitterIcon,
     Hamburguer,
+    DropdownIcon,
 };

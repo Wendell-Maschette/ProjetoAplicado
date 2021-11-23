@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { DropdownIcon } from '../../helpers/svg-bundle';
 import './styles.css';
 
 export default function Dropdown(props) {
@@ -10,12 +11,12 @@ export default function Dropdown(props) {
 
     return (
         <div className="wrapper-dropdown">
-            <button className="dropdown-btn font font-24" onClick={handleClick}>
-                {props.question}
+            <button className="dropdown-btn" onClick={handleClick}>
+                <p className="dropdown-question font font-24">{props.question}</p> <DropdownIcon className="dropdown-icon"/>
             </button>
             {showAnswer ?
                 <div className="dropdown-answer">
-                    <p >
+                    <p className="font font-24" style={{textAlign: 'center'}}>
                         {props.answer}
                     </p>
                 </div> : ""
