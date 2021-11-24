@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/SiteInstitucional-ReactJS/static/css/main.85d8be40.chunk.css",
-    "main.js": "/SiteInstitucional-ReactJS/static/js/main.9eee7855.chunk.js",
-    "main.js.map": "/SiteInstitucional-ReactJS/static/js/main.9eee7855.chunk.js.map",
+    "main.css": "/SiteInstitucional-ReactJS/static/css/main.e2ffddf0.chunk.css",
+    "main.js": "/SiteInstitucional-ReactJS/static/js/main.6dda8391.chunk.js",
+    "main.js.map": "/SiteInstitucional-ReactJS/static/js/main.6dda8391.chunk.js.map",
     "runtime-main.js": "/SiteInstitucional-ReactJS/static/js/runtime-main.68c2a6dd.js",
     "runtime-main.js.map": "/SiteInstitucional-ReactJS/static/js/runtime-main.68c2a6dd.js.map",
     "static/js/2.10a8e436.chunk.js": "/SiteInstitucional-ReactJS/static/js/2.10a8e436.chunk.js",
@@ -10,10 +10,10 @@
     "static/js/3.0c509ecc.chunk.js": "/SiteInstitucional-ReactJS/static/js/3.0c509ecc.chunk.js",
     "static/js/3.0c509ecc.chunk.js.map": "/SiteInstitucional-ReactJS/static/js/3.0c509ecc.chunk.js.map",
     "index.html": "/SiteInstitucional-ReactJS/index.html",
-    "static/css/main.85d8be40.chunk.css.map": "/SiteInstitucional-ReactJS/static/css/main.85d8be40.chunk.css.map",
+    "static/css/main.e2ffddf0.chunk.css.map": "/SiteInstitucional-ReactJS/static/css/main.e2ffddf0.chunk.css.map",
     "static/js/2.10a8e436.chunk.js.LICENSE.txt": "/SiteInstitucional-ReactJS/static/js/2.10a8e436.chunk.js.LICENSE.txt",
     "static/media/caminho.1c86c86e.png": "/SiteInstitucional-ReactJS/static/media/caminho.1c86c86e.png",
-    "static/media/dropdown-icon.99848127.svg": "/SiteInstitucional-ReactJS/static/media/dropdown-icon.99848127.svg",
+    "static/media/dropdown-icon.04b9f1d8.svg": "/SiteInstitucional-ReactJS/static/media/dropdown-icon.04b9f1d8.svg",
     "static/media/facebook-icon.bcdd2d5b.svg": "/SiteInstitucional-ReactJS/static/media/facebook-icon.bcdd2d5b.svg",
     "static/media/future-highway.0557fc87.jpeg": "/SiteInstitucional-ReactJS/static/media/future-highway.0557fc87.jpeg",
     "static/media/hamburguer-icon.b945c847.svg": "/SiteInstitucional-ReactJS/static/media/hamburguer-icon.b945c847.svg",
@@ -25,6 +25,8 @@
     "static/media/linkedin-icon.52e16596.svg": "/SiteInstitucional-ReactJS/static/media/linkedin-icon.52e16596.svg",
     "static/media/missao.7bf4f4dd.png": "/SiteInstitucional-ReactJS/static/media/missao.7bf4f4dd.png",
     "static/media/motorista.d53fb14a.png": "/SiteInstitucional-ReactJS/static/media/motorista.d53fb14a.png",
+    "static/media/smart-highway-banner-mobile.ee0a2b80.jpg": "/SiteInstitucional-ReactJS/static/media/smart-highway-banner-mobile.ee0a2b80.jpg",
+    "static/media/smart-highway-banner.a10d06ac.jpg": "/SiteInstitucional-ReactJS/static/media/smart-highway-banner.a10d06ac.jpg",
     "static/media/twitter-icon.f5120316.svg": "/SiteInstitucional-ReactJS/static/media/twitter-icon.f5120316.svg",
     "static/media/valores.45eb0a34.png": "/SiteInstitucional-ReactJS/static/media/valores.45eb0a34.png",
     "static/media/visao.a2eb398d.png": "/SiteInstitucional-ReactJS/static/media/visao.a2eb398d.png",
@@ -33,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.68c2a6dd.js",
     "static/js/2.10a8e436.chunk.js",
-    "static/css/main.85d8be40.chunk.css",
-    "static/js/main.9eee7855.chunk.js"
+    "static/css/main.e2ffddf0.chunk.css",
+    "static/js/main.6dda8391.chunk.js"
   ]
 }
