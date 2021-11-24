@@ -13,7 +13,7 @@
     padding: 0;
     justify-content: center;
     align-items: center;
-    border-top: 8px solid var(--green-10);
+    border-top: 8px solid var(--green-1);
     }
 
     .content-footer {
@@ -67,7 +67,7 @@ a {
 
 
 .hr {
-    background-color: var(--green-10);
+    background-color: var(--green-1);
     position: relative;
     height: 3px;
     margin: 35px 10px;
@@ -92,7 +92,7 @@ a {
     width: 5px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: var(--green-10);
+    background-color: var(--green-1);
 }
 
 a {

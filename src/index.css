@@ -49,19 +49,9 @@
     --white-14: #B1B8D4ff;
     --white-15: #ABB3D1ff;
     --footer-1: #3f4a6f;
-    --green-1: #2da632;
-    --green-2: #26ae43;
-    --green-3: #1cb554;
-    --green-4: #0ebd64;
-    --green-5: #00c573;
-    --green-6: #00cc83;
-    --green-7: #00d492;
-    --green-8: #00dba1;
-    --green-9: #00e2b0;
-    --green-10: #4FDDB3;
-    --green-11: #00f1ce;
-    --green-12: #00f8dc;
-    --green-13: #00ffea;
+    --green-1: #275a4c;
+    --green-2: #358971;
+    --green-3: #00ffea;
     
 }
 
@@ -75,9 +65,19 @@
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 
-*::-webkit-scrollbar {
-    display: none;
-}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid;
+  }
 
 
 /* Hide scrollbar for IE, Edge and Firefox */
@@ -89,10 +89,7 @@
     /* Firefox */
 }
 
-input:disabled {
-    background-color: var(--disabled-color);
-    color: var(--disabled-dark-color);
-}
+
 
 .padding-default {
     padding: 16px;
@@ -483,6 +480,16 @@ header img.close {
 }
 
 .font-24 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.font-36 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.font-64 {
     font-size: 24px;
     line-height: 36px;
 }

@@ -9,6 +9,9 @@ import Caminho from '../assets/images/caminho.png';
 import Missao from '../assets/images/missao.png';
 import Visao from '../assets/images/visao.png';
 import Valores from '../assets/images/valores.png';
+import SmartHighway from '../assets/images/smart-highway-banner.jpg';
+import SmartHighwayMobile from '../assets/images/smart-highway-banner-mobile.jpg';
+
 
 export {
     FutureHighway,
@@ -21,5 +24,7 @@ export {
     Caminho,
     Missao,
     Visao,
-    Valores
+    Valores,
+    SmartHighway,
+    SmartHighwayMobile
 }

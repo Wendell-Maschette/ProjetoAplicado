@@ -14,11 +14,11 @@ function Navigation() {
       <div className="nav-bar">
         {!isMobile() ?
           <div className="nav-bar-home font font-24" id="links-pages">
-            <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/'}>Home</Link>
+            <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/'}>HOME</Link>
             <div className="nav-bar-links-pages">
-              <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/quem-somos'}>Quem somos</Link>
-              <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/duvidas'}>Duvidas</Link>
-              <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/contato'}>Contato</Link>
+              <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/quem-somos'}>SOBRE NÓS</Link>
+              <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/duvidas'}>DÚVIDAS</Link>
+              <Link className="nav-bar-link" to={process.env.PUBLIC_URL + '/contato'}>CONTATO</Link>
             </div>
           </div>
           : <>
